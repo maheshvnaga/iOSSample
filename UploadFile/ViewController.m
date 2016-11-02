@@ -17,6 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    NSLog(@"Hello this is my test program..");
     NSLog(@"screen height %@",self.view);
     NSLog(@"scree frame %@",[UIScreen mainScreen]);
     NSString *bundleFile = [[[NSBundle mainBundle]resourcePath]stringByAppendingPathComponent:@"images.jpeg"];
